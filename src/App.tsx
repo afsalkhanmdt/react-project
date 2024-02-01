@@ -65,6 +65,7 @@ function App() {
               :''
               }
             onClick={()=>onInput(num)}
+            key={num}
           >
             {num}
           </button>
